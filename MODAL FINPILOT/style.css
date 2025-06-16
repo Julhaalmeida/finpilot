@@ -1,0 +1,48 @@
+/* Fundo geral igual ao dashboard */
+.bg-custom {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+}
+
+/* Caixa do modal */
+.modal-box {
+  background-color: #1b263b;
+  border-radius: 20px;
+  width: 320px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Inputs e selects */
+.input-custom {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.input-custom::placeholder {
+  color: #aaa;
+}
+
+.input-custom:focus {
+  border: 1px solid #00d084;
+  box-shadow: none;
+  background-color: #0d1b2a;
+  color: #fff;
+}
+
+/* Botão Adicionar */
+.btn-add {
+  background-color: #00d084;
+  color: #1b263b;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  transition: background 0.3s ease;
+}
+
+.btn-add:hover {
+  background-color: #00b371;
+  color: #1b263b;
+}
