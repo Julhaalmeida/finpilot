@@ -1,9 +1,7 @@
-/* Fundo geral igual ao dashboard */
 .bg-custom {
   background: linear-gradient(135deg, #0d1b2a, #1b263b);
 }
 
-/* Caixa do modal */
 .modal-box {
   background-color: #1b263b;
   border-radius: 20px;
@@ -11,7 +9,6 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
-/* Inputs e selects */
 .input-custom {
   background-color: #0d1b2a;
   color: #ffffff;
@@ -31,7 +28,6 @@
   color: #fff;
 }
 
-/* Botão Adicionar */
 .btn-add {
   background-color: #00d084;
   color: #1b263b;
