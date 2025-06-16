@@ -1,10 +1,12 @@
 :root {
   --azul-escuro: #002b45;
-  --azul-teal: #00bfa6;
-  --cinza-claro: #1465b6;
+  --azul-teal: #45d48c;
+  --cinza-claro: #051930;
+--verde-suave: #45d48c;
+--vermelho-suave: #ff6b6b;
   --verde-suave: #45d48c;
   --vermelho-suave: #ff6b6b;
-  --branco: #1959a2;
+  --branco: hsl(215, 100%, 93%);
 }
 
 body {
@@ -20,7 +22,7 @@ body {
 }
 
 .login-container {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(148, 148, 148, 0.05);
   border-radius: 20px;
   padding: 40px;
   width: 100%;
@@ -43,7 +45,7 @@ body {
 .form-control {
   border-radius: 10px;
   background-color: var(--cinza-claro);
-  color: #333;
+  color: #9f9f9f;
   border: none;
   box-shadow: none;
   transition: border-color 0.3s, box-shadow 0.3s;
@@ -82,5 +84,3 @@ body {
 .text-teal {
   color: var(--azul-teal);
 }
-
-  
